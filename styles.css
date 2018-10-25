@@ -1,25 +1,50 @@
 body {
-    margin: 0;
     font-family: cursive;
 }
 
-.play {
-    
+.estrela{
+    position: fixed;
+    z-index: -10;
+}
+
+button.control {
+    display: flex;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: cursive;
+    border-bottom: 5px;
+    border-color: black;
+}
+
+.letra-container{
+    display: flex;
+    height: 50vh;
 }
 
 .titulo {
+    display: flex;
+    
     font-size-adjust: initial;
     text-align: right;
     margin: 0;
 }
 
+.bird1 {
+    display: flex;
+    margin: 80px;
+    justify-content: center;
+    width: 50px;
+}
+
 .musica {
-    font-size-adjust: initial;
-    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
 }
 
 header {
-    display: flex;
     justify-content: space-between;
     background-color:white;
     padding: 5px;
@@ -29,22 +54,4 @@ footer {
     text-align: right;
     margin: 0;
     padding: 5px;
-}
-
-.star {
-        display: none;
-        position: absolute;
-
-}
-.star1 {
-top: 60px;
-left: 5px;
-}
-.star2 {
-top: 80px;
-left: 20px;
-        }
-.star3 {
-top: 95px;
-left: 26px;
 }
