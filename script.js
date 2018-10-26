@@ -2,6 +2,7 @@ let musica = new Audio("https://ia802705.us.archive.org/8/items/111Blackbird/1-1
 const botaoPlay = document.querySelector("button.control");
 const letra = document.querySelector(".musica");
 const body = document.querySelector("body");
+const passarinho = document.querySelector(".bird1 img");
 
 let nEstrelas = 0;
 
@@ -54,3 +55,9 @@ setInterval(() => {
     }, 700);
 
 }, 500)
+
+body.onmousemove = event => {
+    passarinho.style.top = `${event.clientY}px`;
+    passarinho.style.left = `${event.clientX}px`;
+    console.log(event);
+}
