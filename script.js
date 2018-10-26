@@ -17,14 +17,21 @@ botaoPlay.onclick = () => {
 }
 
 setInterval(()=>{
+    console.log(musica.currentTime);
     if(musica.currentTime < 4){
         return;
     }
-    else if(musica.currentTime < 9){
-        letra.innerHTML = "Blackbird singing in the dead of night";
+    else if(musica.currentTime < 28){
+        letra.innerHTML = "<p> Blackbird singing in the dead of night</p> <p>Take these broken wings and learn to fly </p> <p> All your life... </p> <p> You were only waiting for this moment to arise </p>";
     }
-    else if(musica.currentTime < 13){
-        letra.innerHTML = "Take these broken wings and learn to fly";
+    else if(musica.currentTime < 47){
+        letra.innerHTML = "<p> Blackbird singing in the dead of night </p> <p> Take these sunken eyes and learn to see </p> <p> All your life... </p> <p>You were only waiting for this moment to be free </p>";
+    }
+    else if(musica.currentTime < 106){
+        letra.innerHTML = "<p> Blackbird fly, blackbird fly </p> <p> Into the light of the dark black night </p>"
+    } 
+    else{
+        letra.innerHTML = "<p> Blackbird singing in the dead of night </p> <p> Take these broken wings and learn to fly </p> <p> All your life... </p> <p>You were only waiting for this moment to be arise... </p>";
     }
 }, 200)
 
