@@ -52,7 +52,7 @@ setInterval(() => {
 
     setTimeout(() => {
         body.removeChild(estrela);
-    }, 700);
+    }, 1000);
 
 }, 500)
 

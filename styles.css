@@ -1,36 +1,39 @@
 body {
     font-family: cursive;
 }
-
 .estrela{
     position: fixed;
     z-index: -10;
 }
 header {
+    display: flex;
+    justify-content: center;
     text-align: center;
+    position: fixed;
+    background-color:white;
+    padding: 5px;
+    width:100%;
 }
-
 button.control {
     display: flex;
     background-color: yellow;
     font-weight: bold;
     font-size: 40px;
-    font-family: cursive;
+    font-family: fantasy;
     border-bottom: 5px;
     border-color: black;
-    border-radius: 100%;
+    border-radius: 80%;
+    z-index: 10;
 }
-
 .letra-container{
     display: flex;
     height: 50vh;
+    justify-items: center;
+    text-align: center;
 }
-
 .titulo {
     display: flex;
-    font-size-adjust: initial;
-    text-align: right;
-    margin: 0;
+    text-align: center;
 }
  .bird1 img {
      width: 120px;
@@ -45,16 +48,9 @@ button.control {
     align-items: center;
     flex-direction: column;
     height: 50vh;
-}
-
-header {
-    justify-content: space-between;
-    background-color:white;
-    padding: 5px;
+    font-size: 20px;
 }
 footer {
-    font-size-adjust: inherit;
-    text-align: right;
-    margin: 0;
-    padding: 5px;
+    position: absolute;
+    bottom: 0;
 }
