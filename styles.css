@@ -15,6 +15,7 @@ button.control {
     font-family: cursive;
     border-bottom: 5px;
     border-color: black;
+    border-radius: 100%;
 }
 
 .letra-container{
@@ -34,7 +35,11 @@ button.control {
     display: flex;
     margin: 80px;
     justify-content: center;
-    width: 50px;
+    width: 150px;
+    
+    
+    
+    
 }
 
 .musica {
