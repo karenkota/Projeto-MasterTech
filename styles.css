@@ -41,6 +41,21 @@ button.control {
      z-index: 0;
  }
 
+ aside {
+     position: absolute;
+     right: 0;
+     width: 15vw;
+     height: 100vh;
+
+     transform: translateX(100%);
+     transition: 1s;
+ }
+
+ aside.visivel {
+     transform: translateX(0);
+ }
+
+
 .musica {
     justify-content: center;
     align-items: center;

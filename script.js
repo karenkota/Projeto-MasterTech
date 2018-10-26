@@ -3,6 +3,8 @@ const botaoPlay = document.querySelector("button.control");
 const letra = document.querySelector(".musica");
 const body = document.querySelector("body");
 const passarinho = document.querySelector(".bird1 img");
+const aside = document.querySelector("aside");
+const menu = document.querySelector(".menu");
 
 let nEstrelas = 0;
 
@@ -60,4 +62,7 @@ body.onmousemove = event => {
     passarinho.style.top = `${event.clientY+100}px`;
     passarinho.style.left = `${event.clientX}px`;
     // console.log(event);
+}
+menu.onclick = event => {
+    aside.classList.toggle ("visivel");
 }
