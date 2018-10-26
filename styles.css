@@ -32,17 +32,12 @@ button.control {
     text-align: right;
     margin: 0;
 }
-
-.bird1 {
-    display: flex;
-    margin: 80px;
-    justify-content: center;
-    width: 150px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-   cursor: pointer;
-}
+ .bird1 img {
+     width: 120px;
+     position: fixed;
+     top: 340px; 
+     left: 600px;
+ }
 
 .musica {
     display: flex;
