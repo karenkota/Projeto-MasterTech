@@ -18,7 +18,7 @@ botaoPlay.onclick = () => {
 }
 
 setInterval(()=>{
-    console.log(musica.currentTime);
+    // console.log(musica.currentTime);
     if(musica.currentTime < 4){
         return;
     }
@@ -57,7 +57,7 @@ setInterval(() => {
 }, 500)
 
 body.onmousemove = event => {
-    passarinho.style.top = `${event.clientY}px`;
+    passarinho.style.top = `${event.clientY+100}px`;
     passarinho.style.left = `${event.clientX}px`;
-    console.log(event);
+    // console.log(event);
 }
