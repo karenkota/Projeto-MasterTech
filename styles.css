@@ -6,6 +6,9 @@ body {
     position: fixed;
     z-index: -10;
 }
+header {
+    text-align: center;
+}
 
 button.control {
     display: flex;
@@ -25,7 +28,6 @@ button.control {
 
 .titulo {
     display: flex;
-    
     font-size-adjust: initial;
     text-align: right;
     margin: 0;
@@ -36,16 +38,17 @@ button.control {
     margin: 80px;
     justify-content: center;
     width: 150px;
-    
-    
-    
-    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+   cursor: pointer;
 }
 
 .musica {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 50vh;
 }
 
