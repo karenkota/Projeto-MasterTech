@@ -60,7 +60,7 @@ setInterval(() => {
 
 body.onmousemove = event => {
     passarinho.style.top = `${event.clientY+100}px`;
-    passarinho.style.left = `${event.clientX}px`;
+    passarinho.style.left = `${event.clientX-300}px`;
     // console.log(event);
 }
 menu.onclick = event => {
