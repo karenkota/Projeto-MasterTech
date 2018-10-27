@@ -13,11 +13,16 @@ const aleatorio = (min, max) => Math.floor(Math.random() * (max - min + 1)) + mi
 botaoPlay.onclick = () => {
     if(musica.paused){
         musica.play();
+        botaoPlay.innerHTML = "pause";
+
     }
     else{
         musica.pause();
+        botaoPlay.innerHTML = "play";
     }
 }
+
+
 
 setInterval(()=>{
     // console.log(musica.currentTime);
