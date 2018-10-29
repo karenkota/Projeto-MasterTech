@@ -75,12 +75,21 @@ footer {
 @media (max-width: 830px) {
    body {
         display: flex;
+        font-size: 15px;
     }
 
    .letra-container .musica {
         width: 50%;
         margin: 15px;
         margin-top: 50%;
-        font-size: 20px;
+        font-size: 15px ;
+    }
+
+    }
+   footer {
+       font-size: 10px;
+       }
+    .titulo .h1{
+        font-size: 15px;
     }
 }
