@@ -77,14 +77,11 @@ footer {
         display: flex;
         font-size: 15px;
     }
-
    .letra-container .musica {
         width: 50%;
         margin: 15px;
         margin-top: 50%;
         font-size: 15px ;
-    }
-
     }
    footer {
        font-size: 10px;
